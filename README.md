@@ -37,6 +37,7 @@ This Discord bot leverages the Ollama AI platform to deliver a powerful conversa
 - Python 3.8 or newer
 - Discord bot token (obtain it from the [Discord Developer Portal](https://discord.com/developers/applications))
 - Access to an Ollama AI server
+- dolphin-mistral LLM
 
 ### Dependencies
 
@@ -45,6 +46,12 @@ Install the required Python libraries with pip:
 ```bash
 pip install discord.py aiohttp aiosqlite python-dotenv pygments
 ```
+
+The default model used by the bot is dolphin-mistral. Run this command on your ollama server to install it:
+```bash
+ollama pull dolphin-mistral
+```
+Another option is to change the default_model variable in utility_cog.py and bot.py 
 
 ### Environment Setup
 
