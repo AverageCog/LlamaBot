@@ -3,8 +3,6 @@
 This Discord bot leverages the Ollama AI platform to deliver a powerful conversational AI experience directly in Discord. It includes various cogs to manage interactions, such as generating responses, maintaining conversation history, and managing AI models.
 
 
-![example](<Screenshot 2024-04-29 at 8.43.37 PM.png>)
-
 ## Features
 
 ### AI Conversations
